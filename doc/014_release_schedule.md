@@ -3,6 +3,8 @@ FCS follows a quarterly release schedule, on January, April, July, and October.
 Each major version released is supported either for 3 months (standard) or 1 year for Long-term Support(LTS). 
 Once released a major version will receive no update beside bug fixes that come as minor version updates (i.e., 24.07.02~)
 
+テスト　ここに日本語を入れるとどうなるのか
+
 ### Schedule
 ```{figure} images/fcs_release_timeline.jpg
 :width: 80%
