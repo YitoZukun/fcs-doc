@@ -71,17 +71,17 @@ msgid "Standard vs LTS"
 msgstr "スタンダード版 vs LTS版"
 
 #: ../../014_release_schedule.md:25
-#, fuzzy
 msgid ""
 "The main difference between standard and LTS version lies in the length "
 "of their support period (how long the version would receive minor bug "
 "fix), 6 months vs 1 year.<br> LTS is recommended if the current LTS "
 "version meets all your requirements and you work on projects that last "
 "for longer than the standard supported period. <br>"
-msgstr "Standard版とLTS版の主な違いはサポート期間にあり、Standard版は3ヶ月間、LTS版は1年間サポートされます。サポート期間中、致命的なバグが修正され次第、迅速にアップデートとしてリリースされます。<br>もし、現在サポート中のLTS版がすべての要件を満たしており、かつプロジェクトの期間がStandard版のサポート期間を超える場合は、LTS版の利用が推奨されます。"
+msgstr ""
+"Standard版とLTS版の主な違いは、サポート期間の長さ（バグ修正などのマイナーアップデートの対応期間）です。Standard版は6か月、LTS版は1年です。<br>"
+"現在のLTS版は基本的な機能が網羅されているため、標準のサポート期間よりも長いプロジェクトで使用する場合はLTS版をお勧めします。
 
 #: ../../014_release_schedule.md:28
-#, fuzzy
 msgid ""
 "Preview release has been discontinued.<br><br> <s>Preview versions "
 "provides a glimpse of upcoming features of new version of FCS and provide"
@@ -90,7 +90,11 @@ msgid ""
 " is guaranteed, you should never use the preview version without making "
 "backup of the data. You should only use the preview if and only if you "
 "some specific features and you understand the risk. </s>"
-msgstr "Preview版のリリースは以降中止となりました。<br><s>Preview版は、新しいFCSバージョンの今後の機能を先取りできるとともに、開発者へフィードバックを行う機会を提供します。そのため、データのバックアップを行わずにPreview版を使用することは避けてください。特定の機能が必要であり、そのリスクを十分に理解している場合にのみ、Preview版の使用を検討してください。</s>"
+msgstr ""
+"Preview版のリリースは以降中止となりました。<br>"
+"<s>Preview版は、新しいFCSバージョンの今後の機能を先取りできるとともに、開発者へフィードバックを行う機会を提供します。"
+"そのため、データのバックアップを行わずにPreview版を使用することは避けてください。"
+"特定の機能が必要であり、そのリスクを十分に理解している場合にのみ、Preview版の使用を検討してください。</s>"
 
 #: ../../014_release_schedule.md:31
 msgid "Compatibility"
