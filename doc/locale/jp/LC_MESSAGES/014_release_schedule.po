@@ -44,7 +44,7 @@ msgstr "新機能追加やアルゴリズムの更新・変更などのメジャ
 
 #: ../../014_release_schedule.md:9
 msgid "2. About fix releases (minor versions)"
-msgstr "２．マイナーバージョンによる修正対応"
+msgstr "2.マイナーバージョンによる修正対応"
 
 #: ../../014_release_schedule.md:10
 msgid ""
