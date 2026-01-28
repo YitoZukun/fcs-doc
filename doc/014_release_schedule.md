@@ -25,7 +25,6 @@ Once released a major version will receive no update beside bug fixes that come 
 The main difference between standard and LTS version lies in the support period, 3 months vs 1 year.<br>
 During support period we will issue critical bug fixes to the version once fixed. LTS is recommended if the current supported LTS version meets all your requirements and you work on projects that last for longer than the standard supported period. <br>
 
-Updated: January 30, 2026<br>
 Preview release has been discontinued.<br>
 <s>Preview versions provides a glimpse of upcoming features of new version of FCS and provide a chance to provide feedback to the developers. It is where we release non-critical bug fixes and are subject to constant changes and no support is guaranteed, you should never use the preview version without making backup of the data. You should only use the preview if and only if you some specific features and you understand the risk. </s>
 
