@@ -9,8 +9,7 @@ By changing the release frequency, we aim to further stabilize the quality of ea
 #### 2. About fix releases (minor versions)
 Once a major version is released, there will be no major updates with additional features until the next regular release.<br>
 Minor version updates, which include minor improvements such as UI changes and bug fixes, will be implemented as needed (e.g., 24.10.01).
-
-<br><br>
+<br>
 <s>FCS follows a quarterly release schedule, on January, April, July, and October. 
 Each major version released is supported either for 3 months (standard) or 1 year for Long-term Support(LTS). 
 Once released a major version will receive no update beside bug fixes that come as minor version updates (i.e., 24.07.02~)</s>
