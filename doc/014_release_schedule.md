@@ -6,9 +6,9 @@ Starting in 2026, the release cycle for FCS will change from the previous quarte
 Major versions that mainly include specification changes, such as adding new features and changing algorithms, will be released twice a year, in April and October.<br>
 By changing the release frequency, we aim to further stabilize the quality of each version.
 
-#### 2. About fix releases (minor versions)
-Once a major version is released, there will be no major updates with additional features until the next regular release.<br>
-Minor version updates, which include minor improvements such as UI changes and bug fixes, will be implemented as needed (e.g., 24.10.01).
+#### 2. Hotfix releases (minor versions)
+Once a major version is released, feature set is frozen until the next regular release.<br>
+Minor version could include subtle improvements such as UI refinement and bug fixes, will be released as needed (e.g., 24.10.01).
 <br>
 <s>FCS follows a quarterly release schedule, on January, April, July, and October. 
 Each major version released is supported either for 3 months (standard) or 1 year for Long-term Support(LTS). 
@@ -21,19 +21,18 @@ Once released a major version will receive no update beside bug fixes that come 
 ```
 
 ### Upgrading FCS
-#### Standard vs LTS vs Preview
-The main difference between standard and LTS version lies in the support period, 3 months vs 1 year.<br>
-During support period we will issue critical bug fixes to the version once fixed. LTS is recommended if the current supported LTS version meets all your requirements and you work on projects that last for longer than the standard supported period. <br>
+#### Standard vs LTS
+<s>The main difference between standard and LTS version lies in the length of their support period (how long the version would receive minor bug fix), 6 months vs 1 year.<br>
+LTS is recommended if the current LTS version meets all your requirements and you work on projects that last for longer than the standard supported period. <br> </s>
 
 Preview release has been discontinued.<br>
 <s>Preview versions provides a glimpse of upcoming features of new version of FCS and provide a chance to provide feedback to the developers. It is where we release non-critical bug fixes and are subject to constant changes and no support is guaranteed, you should never use the preview version without making backup of the data. You should only use the preview if and only if you some specific features and you understand the risk. </s>
 
 #### Compatibility
-FCS Sessions are forward compatible unless explicit noted otherwise, however backward compatibility is not always guaranteed especially across major version (e.g., 24.07, 24.10). <br>
-That means, you can open FCS sessions created in a previous version of FCS with newer versions of FCS. However, once opened in a newer version, you might not be able to open the session in an older version of FCS anymore.<br>
-Hence it is critical for you to backup your files before moving to a newer version of FCS. <br>
-We try to keep session backward compatible as much as possible within a major version (e.g., across 24.07.01~24.07.10) however there is no guarantee. <br>
-In case of using the same FCS session with others, it is critical for you to ensure that your team use the same minor version of FCS.  
+FCS sessions are forward-compatible unless explicitly noted otherwise; however, backward compatibility is not always guaranteed, especially across major versions (e.g., 26.04, 26.10).<br>
+This means you can open FCS sessions created in a previous version of FCS using newer versions. However, once a session is opened in a newer version, it may no longer be possible to open it in an older version of FCS.<br>
+Therefore, it is critical to back up your files before upgrading to a newer version of FCS.<br>
+We strive to maintain backward compatibility within a major version (e.g., across 24.07.01–24.07.10); however, this is not guaranteed.<br>
 
 #### Steps to upgrade
 1. [Export your data](#export-header-target). 
