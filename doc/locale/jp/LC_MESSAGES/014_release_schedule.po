@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FCS Manual latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-01-28 08:24+0000\n"
+"POT-Creation-Date: 2026-01-28 08:28+0000\n"
 "PO-Revision-Date: 2025-02-24 10:33+0900\n"
 "Last-Translator: \n"
 "Language: jp\n"
@@ -84,21 +84,20 @@ msgstr "Standard版とLTS版の主な違いはサポート期間にあり、Stan
 #: ../../014_release_schedule.md:28
 #, fuzzy
 msgid ""
-"Updated: January 30, 2026<br> Preview release has been discontinued.<br> "
-"<s>Preview versions provides a glimpse of upcoming features of new "
-"version of FCS and provide a chance to provide feedback to the "
-"developers. It is where we release non-critical bug fixes and are subject"
-" to constant changes and no support is guaranteed, you should never use "
-"the preview version without making backup of the data. You should only "
-"use the preview if and only if you some specific features and you "
-"understand the risk. </s>"
+"Preview release has been discontinued.<br> <s>Preview versions provides a"
+" glimpse of upcoming features of new version of FCS and provide a chance "
+"to provide feedback to the developers. It is where we release non-"
+"critical bug fixes and are subject to constant changes and no support is "
+"guaranteed, you should never use the preview version without making "
+"backup of the data. You should only use the preview if and only if you "
+"some specific features and you understand the risk. </s>"
 msgstr "Standard版とLTS版の主な違いはサポート期間にあり、Standard版は3ヶ月間、LTS版は1年間サポートされます。サポート期間中、致命的なバグが修正され次第、迅速にアップデートとしてリリースされます。もし、現在サポート中のLTS版がすべての要件を満たしており、かつプロジェクトの期間がStandard版のサポート期間を超える場合は、LTS版の利用が推奨されます。Preview版は、新しいFCSバージョンの今後の機能を先取りできるとともに、開発者へフィードバックを行う機会を提供します。この版では、軽微なバグの修正が含まれ、常に変更が加えられるため、サポートは保証されません。そのため、データのバックアップを行わずにPreview版を使用することは避けてください。特定の機能が必要であり、そのリスクを十分に理解している場合にのみ、Preview版の使用を検討してください。"
 
-#: ../../014_release_schedule.md:32
+#: ../../014_release_schedule.md:31
 msgid "Compatibility"
 msgstr "互換性"
 
-#: ../../014_release_schedule.md:33
+#: ../../014_release_schedule.md:32
 #, fuzzy
 msgid ""
 "FCS Sessions are forward compatible unless explicit noted otherwise, "
@@ -118,15 +117,15 @@ msgstr ""
 "24.10）では、後方互換性が必ずしも保証されるわけではありません。 "
 "以前のFCSバージョンで作成されたセッションは新しいバージョンのFCSで開くことができますが、一度新しいバージョンで開いたセッションは、古いバージョンでは再び開けなくなる可能性があります。そのため、新しいバージョンに移行する前に、必ずファイルのバックアップを取るようにしてください。同一メジャーバージョン内（例：24.07.01～24.07.10）では、できる限り後方互換性を維持するよう努めていますが、必ずしも保証されるものではありません。また、複数のユーザーで同じFCSセッションを利用する場合は、チーム全体で同じマイナーバージョンのFCSを使用することを推奨します。"
 
-#: ../../014_release_schedule.md:39
+#: ../../014_release_schedule.md:38
 msgid "Steps to upgrade"
 msgstr "アップグレード手順"
 
-#: ../../014_release_schedule.md:40
+#: ../../014_release_schedule.md:39
 msgid "[Export your data](#export-header-target)."
 msgstr "セッションデータを[エクスポート](#export-header-target)してください。"
 
-#: ../../014_release_schedule.md:41
+#: ../../014_release_schedule.md:40
 msgid "Open the exported data using the newly downloaded version of FCS."
 msgstr "新しくダウンロードしたFCSのバージョンを使用し、エクスポートされたデータを開いてください。"
 

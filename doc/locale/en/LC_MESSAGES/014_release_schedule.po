@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FCS Manual latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-01-28 08:24+0000\n"
+"POT-Creation-Date: 2026-01-28 08:28+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
@@ -82,21 +82,20 @@ msgstr ""
 
 #: ../../014_release_schedule.md:28
 msgid ""
-"Updated: January 30, 2026<br> Preview release has been discontinued.<br> "
-"<s>Preview versions provides a glimpse of upcoming features of new "
-"version of FCS and provide a chance to provide feedback to the "
-"developers. It is where we release non-critical bug fixes and are subject"
-" to constant changes and no support is guaranteed, you should never use "
-"the preview version without making backup of the data. You should only "
-"use the preview if and only if you some specific features and you "
-"understand the risk. </s>"
+"Preview release has been discontinued.<br> <s>Preview versions provides a"
+" glimpse of upcoming features of new version of FCS and provide a chance "
+"to provide feedback to the developers. It is where we release non-"
+"critical bug fixes and are subject to constant changes and no support is "
+"guaranteed, you should never use the preview version without making "
+"backup of the data. You should only use the preview if and only if you "
+"some specific features and you understand the risk. </s>"
 msgstr ""
 
-#: ../../014_release_schedule.md:32
+#: ../../014_release_schedule.md:31
 msgid "Compatibility"
 msgstr ""
 
-#: ../../014_release_schedule.md:33
+#: ../../014_release_schedule.md:32
 msgid ""
 "FCS Sessions are forward compatible unless explicit noted otherwise, "
 "however backward compatibility is not always guaranteed especially across"
@@ -112,15 +111,15 @@ msgid ""
 "of FCS."
 msgstr ""
 
-#: ../../014_release_schedule.md:39
+#: ../../014_release_schedule.md:38
 msgid "Steps to upgrade"
 msgstr ""
 
-#: ../../014_release_schedule.md:40
+#: ../../014_release_schedule.md:39
 msgid "[Export your data](#export-header-target)."
 msgstr ""
 
-#: ../../014_release_schedule.md:41
+#: ../../014_release_schedule.md:40
 msgid "Open the exported data using the newly downloaded version of FCS."
 msgstr ""
 
@@ -285,5 +284,23 @@ msgstr ""
 #~ "is critical for you to ensure that"
 #~ " your team use the same minor "
 #~ "version of FCS."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Updated: January 30, 2026<br> Preview "
+#~ "release has been discontinued.<br> <s>Preview"
+#~ " versions provides a glimpse of "
+#~ "upcoming features of new version of "
+#~ "FCS and provide a chance to "
+#~ "provide feedback to the developers. It"
+#~ " is where we release non-critical "
+#~ "bug fixes and are subject to "
+#~ "constant changes and no support is "
+#~ "guaranteed, you should never use the "
+#~ "preview version without making backup of"
+#~ " the data. You should only use "
+#~ "the preview if and only if you "
+#~ "some specific features and you "
+#~ "understand the risk. </s>"
 #~ msgstr ""
 
