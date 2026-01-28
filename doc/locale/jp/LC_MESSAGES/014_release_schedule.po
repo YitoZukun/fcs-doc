@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FCS Manual latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-01-28 09:16+0000\n"
+"POT-Creation-Date: 2026-01-28 10:38+0000\n"
 "PO-Revision-Date: 2025-02-24 10:33+0900\n"
 "Last-Translator: \n"
 "Language: jp\n"
@@ -43,20 +43,21 @@ msgid ""
 msgstr "新機能追加やアルゴリズムの更新・変更などのメジャーバージョンのリリースは、毎年4月と10月の年2回実施予定となっております。<br>リリース頻度を集約することで、各バージョンにおける品質のさらなる安定化を図ってまいります。"
 
 #: ../../014_release_schedule.md:9
-msgid "2. About fix releases (minor versions)"
+#, fuzzy
+msgid "2. Hotfix releases (minor versions)"
 msgstr "2.マイナーバージョンによる修正対応"
 
 #: ../../014_release_schedule.md:10
+#, fuzzy
 msgid ""
-"Once a major version is released, there will be no major updates with "
-"additional features until the next regular release.<br> Minor version "
-"updates, which include minor improvements such as UI changes and bug "
-"fixes, will be implemented as needed (e.g., 24.10.01). <br> <s>FCS "
-"follows a quarterly release schedule, on January, April, July, and "
-"October.  Each major version released is supported either for 3 months "
-"(standard) or 1 year for Long-term Support(LTS).  Once released a major "
-"version will receive no update beside bug fixes that come as minor "
-"version updates (i.e., 24.07.02~)</s>"
+"Once a major version is released, feature set is frozen until the next "
+"regular release.<br> Minor version could include subtle improvements such"
+" as UI refinement and bug fixes, will be released as needed (e.g., "
+"24.10.01). <br> <s>FCS follows a quarterly release schedule, on January, "
+"April, July, and October.  Each major version released is supported "
+"either for 3 months (standard) or 1 year for Long-term Support(LTS).  "
+"Once released a major version will receive no update beside bug fixes "
+"that come as minor version updates (i.e., 24.07.02~)</s>"
 msgstr "一度リリースされたメジャーバージョンに対しては、次回の定期リリースまで機能追加を伴う大きな更新は行いません。<br>UI変更などの軽微な改善、不具合やバグの修正を目的とした「マイナーバージョン」のアップデート（例：24.10.01〜）は、必要に応じて随時実施されます。<br><br><s>FCSは、1月、4月、7月、10月の各四半期にリリースされます。各メジャーバージョンは、スタンダード版の場合は3ヶ月間、LTS版（長期サポート版）の場合は1年間サポートされます。また、一度リリースされたメジャーバージョンには、バグ修正のためのマイナーバージョンアップデート（例：24.07.02～）以外の更新は行われません。</s>"
 
 #: ../../014_release_schedule.md:17
@@ -68,16 +69,18 @@ msgid "Upgrading FCS"
 msgstr "FCSのアップグレード"
 
 #: ../../014_release_schedule.md:24
-msgid "Standard vs LTS vs Preview"
+#, fuzzy
+msgid "Standard vs LTS"
 msgstr "スタンダード版 vs LTS版 vs プレビュー版"
 
 #: ../../014_release_schedule.md:25
+#, fuzzy
 msgid ""
-"The main difference between standard and LTS version lies in the support "
-"period, 3 months vs 1 year.<br> During support period we will issue "
-"critical bug fixes to the version once fixed. LTS is recommended if the "
-"current supported LTS version meets all your requirements and you work on"
-" projects that last for longer than the standard supported period. <br>"
+"<s>The main difference between standard and LTS version lies in the "
+"length of their support period (how long the version would receive minor "
+"bug fix), 6 months vs 1 year.<br> LTS is recommended if the current LTS "
+"version meets all your requirements and you work on projects that last "
+"for longer than the standard supported period. <br> </s>"
 msgstr "Standard版とLTS版の主な違いはサポート期間にあり、Standard版は3ヶ月間、LTS版は1年間サポートされます。サポート期間中、致命的なバグが修正され次第、迅速にアップデートとしてリリースされます。<br>もし、現在サポート中のLTS版がすべての要件を満たしており、かつプロジェクトの期間がStandard版のサポート期間を超える場合は、LTS版の利用が推奨されます。"
 
 #: ../../014_release_schedule.md:28
@@ -96,32 +99,31 @@ msgid "Compatibility"
 msgstr "互換性"
 
 #: ../../014_release_schedule.md:32
+#, fuzzy
 msgid ""
-"FCS Sessions are forward compatible unless explicit noted otherwise, "
-"however backward compatibility is not always guaranteed especially across"
-" major version (e.g., 24.07, 24.10). <br> That means, you can open FCS "
-"sessions created in a previous version of FCS with newer versions of FCS."
-" However, once opened in a newer version, you might not be able to open "
-"the session in an older version of FCS anymore.<br> Hence it is critical "
-"for you to backup your files before moving to a newer version of FCS. "
-"<br> We try to keep session backward compatible as much as possible "
-"within a major version (e.g., across 24.07.01~24.07.10) however there is "
-"no guarantee. <br> In case of using the same FCS session with others, it "
-"is critical for you to ensure that your team use the same minor version "
-"of FCS."
+"FCS sessions are forward-compatible unless explicitly noted otherwise; "
+"however, backward compatibility is not always guaranteed, especially "
+"across major versions (e.g., 26.04, 26.10).<br> This means you can open "
+"FCS sessions created in a previous version of FCS using newer versions. "
+"However, once a session is opened in a newer version, it may no longer be"
+" possible to open it in an older version of FCS.<br> Therefore, it is "
+"critical to back up your files before upgrading to a newer version of "
+"FCS.<br> We strive to maintain backward compatibility within a major "
+"version (e.g., across 24.07.01–24.07.10); however, this is not "
+"guaranteed.<br>"
 msgstr ""
 "FCSセッションは、特に注意事項が記載されていない限り、前方互換性があります。<br>しかし、特にメジャーバージョン間（例：24.07 と "
 "24.10）では、後方互換性が必ずしも保証されるわけではありません。<br>以前のFCSバージョンで作成されたセッションは新しいバージョンのFCSで開くことができますが、一度新しいバージョンで開いたセッションは、古いバージョンでは再び開けなくなる可能性があります。<br>そのため、新しいバージョンに移行する前に、必ずファイルのバックアップを取るようにしてください。<br>同一メジャーバージョン内（例：24.07.01～24.07.10）では、できる限り後方互換性を維持するよう努めていますが、必ずしも保証されるものではありません。また、複数のユーザーで同じFCSセッションを利用する場合は、チーム全体で同じマイナーバージョンのFCSを使用することを推奨します。"
 
-#: ../../014_release_schedule.md:38
+#: ../../014_release_schedule.md:37
 msgid "Steps to upgrade"
 msgstr "アップグレード手順"
 
-#: ../../014_release_schedule.md:39
+#: ../../014_release_schedule.md:38
 msgid "[Export your data](#export-header-target)."
 msgstr "セッションデータを[エクスポート](#export-header-target)してください。"
 
-#: ../../014_release_schedule.md:40
+#: ../../014_release_schedule.md:39
 msgid "Open the exported data using the newly downloaded version of FCS."
 msgstr "新しくダウンロードしたFCSのバージョンを使用し、エクスポートされたデータを開いてください。"
 
