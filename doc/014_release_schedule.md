@@ -30,8 +30,10 @@ Preview release has been discontinued.
 <s>Preview versions provides a glimpse of upcoming features of new version of FCS and provide a chance to provide feedback to the developers. It is where we release non-critical bug fixes and are subject to constant changes and no support is guaranteed, you should never use the preview version without making backup of the data. You should only use the preview if and only if you some specific features and you understand the risk. </s>
 
 #### Compatibility
-FCS Sessions are forward compatible unless explicit noted otherwise, however backward compatibility is not always guaranteed especially across major version (e.g., 24.07, 24.10). That means, you can open FCS sessions created in a previous version of FCS with newer versions of FCS. However, once opened in a newer version, you might not be able to open the session in an older version of FCS anymore. Hence it is critical for you to backup your files before moving to a newer version of FCS. 
-We try to keep session backward compatible as much as possible within a major version (e.g., across 24.07.01~24.07.10) however there is no guarantee. 
+FCS Sessions are forward compatible unless explicit noted otherwise, however backward compatibility is not always guaranteed especially across major version (e.g., 24.07, 24.10). <br>
+That means, you can open FCS sessions created in a previous version of FCS with newer versions of FCS. However, once opened in a newer version, you might not be able to open the session in an older version of FCS anymore.<br>
+Hence it is critical for you to backup your files before moving to a newer version of FCS. <br>
+We try to keep session backward compatible as much as possible within a major version (e.g., across 24.07.01~24.07.10) however there is no guarantee. <br>
 In case of using the same FCS session with others, it is critical for you to ensure that your team use the same minor version of FCS.  
 
 #### Steps to upgrade
