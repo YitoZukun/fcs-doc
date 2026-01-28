@@ -79,7 +79,8 @@ msgid ""
 "for longer than the standard supported period. <br>"
 msgstr ""
 "Standard版とLTS版の主な違いは、サポート期間の長さ（バグ修正などのマイナーアップデートの対応期間）です。Standard版は6か月、LTS版は1年です。<br>"
-"現在のLTS版は基本的な機能が網羅されているため、標準のサポート期間よりも長いプロジェクトで使用する場合はLTS版をお勧めします。
+"現在のLTS版は主要な機能が充足しており安定した運用が可能なため、FCSの基本的な機能を使用したい場合や、Standard版のサポートよりも長い期間プロジェクトで使用する場合は、"
+"LTS版をお勧めします。"
 
 #: ../../014_release_schedule.md:28
 msgid ""
