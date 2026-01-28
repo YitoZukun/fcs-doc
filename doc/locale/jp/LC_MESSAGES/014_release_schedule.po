@@ -27,7 +27,7 @@ msgid ""
 "Updated: January 30, 2026<br><br> Starting in 2026, the release cycle for"
 " FCS will change from the previous quarterly updates to semi-annual "
 "updates in April and October (twice a year).<br>"
-msgstr "※2026年1月30日 更新<br><br>FCSのリリースサイクルは、2026年より従来の四半期ごとの更新から"
+msgstr "※2026年1月30日 更新<br>FCSのリリースサイクルは、2026年より従来の四半期ごとの更新から4月と10月の半年ごと（年2回）の更新となりました。"
 
 #: ../../014_release_schedule.md:5
 msgid "1. Regular releases (major versions)"
@@ -39,11 +39,13 @@ msgid ""
 "new features and changing algorithms, will be released twice a year, in "
 "April and October.<br> By changing the release frequency, we aim to "
 "further stabilize the quality of each version."
-msgstr "新機能追加やアルゴリズムの更新・変更などのメジャーバージョンのリリースは、毎年4月と10月の年2回実施予定となっております。<br>リリース頻度を集約することで、各バージョンにおける品質のさらなる安定化を図ってまいります。"
+msgstr ""
+"新機能追加やアルゴリズムの更新・変更などのメジャーバージョンのリリースは、毎年4月と10月の年2回実施予定となっております。<br>"
+"リリース頻度を集約することで、各バージョンにおける品質のさらなる安定化を図ってまいります。"
 
 #: ../../014_release_schedule.md:9
 msgid "2. About fix releases (minor versions)"
-msgstr "マイナーバージョンによる修正対応"
+msgstr "２．マイナーバージョンによる修正対応"
 
 #: ../../014_release_schedule.md:10
 msgid ""
@@ -56,7 +58,12 @@ msgid ""
 "(standard) or 1 year for Long-term Support(LTS).  Once released a major "
 "version will receive no update beside bug fixes that come as minor "
 "version updates (i.e., 24.07.02~)</s>"
-msgstr "一度リリースされたメジャーバージョンに対しては、次回の定期リリースまで機能追加を伴う大きな更新は行いません。<br<br><s>FCSは、1月、4月、7月、10月の各四半期にリリースされます。各メジャーバージョンは、スタンダード版の場合は3ヶ月間、LTS版（長期サポート版）の場合は1年間サポートされます。また、一度リリースされたメジャーバージョンには、バグ修正のためのマイナーバージョンアップデート（例：24.07.02～）以外の更新は行われません。</s>"
+msgstr ""
+"一度リリースされたメジャーバージョンに対しては、次回の定期リリースまで機能追加を伴う大きな更新は行いません。<br>"
+"UI変更などの軽微な改善、不具合やバグの修正を目的とした「マイナーバージョン」のアップデート（例：24.10.01〜）は、必要に応じて随時実施されます。"
+"<s>FCSは、1月、4月、7月、10月の各四半期にリリースされます。"
+"各メジャーバージョンは、スタンダード版の場合は3ヶ月間、LTS版（長期サポート版）の場合は1年間サポートされます。"
+"また、一度リリースされたメジャーバージョンには、バグ修正のためのマイナーバージョンアップデート（例：24.07.02～）以外の更新は行われません。</s>"
 
 #: ../../014_release_schedule.md:17
 msgid "Schedule"
@@ -78,6 +85,9 @@ msgid ""
 "current supported LTS version meets all your requirements and you work on"
 " projects that last for longer than the standard supported period. <br>"
 msgstr ""
+"Standard版とLTS版の主な違いはサポート期間にあり、Standard版は3ヶ月間、LTS版は1年間サポートされます。サポート期間中、致命的なバグが修正され次第、迅速にアップデートとしてリリースされます。<br>"
+"もし、現在サポート中のLTS版がすべての要件を満たしており、かつプロジェクトの期間がStandard版のサポート期間を超える場合は、LTS版の利用が推奨されます。"
+
 
 #: ../../014_release_schedule.md:28
 msgid ""
@@ -88,7 +98,9 @@ msgid ""
 "guaranteed, you should never use the preview version without making "
 "backup of the data. You should only use the preview if and only if you "
 "some specific features and you understand the risk. </s>"
-msgstr "Preview版のリリースは以降中止となりました。<br><s>Standard版とLTS版の主な違いはサポート期間にあり、Standard版は3ヶ月間、LTS版は1年間サポートされます。サポート期間中、致命的なバグが修正され次第、迅速にアップデートとしてリリースされます。もし、現在サポート中のLTS版がすべての要件を満たしており、かつプロジェクトの期間がStandard版のサポート期間を超える場合は、LTS版の利用が推奨されます。Preview版は、新しいFCSバージョンの今後の機能を先取りできるとともに、開発者へフィードバックを行う機会を提供します。この版では、軽微なバグの修正が含まれ、常に変更が加えられるため、サポートは保証されません。そのため、データのバックアップを行わずにPreview版を使用することは避けてください。特定の機能が必要であり、そのリスクを十分に理解している場合にのみ、Preview版の使用を検討してください。"
+msgstr ""
+"Preview版のリリースは以降中止となりました。<br>"
+"<s>Preview版は、新しいFCSバージョンの今後の機能を先取りできるとともに、開発者へフィードバックを行う機会を提供します。この版では、軽微なバグの修正が含まれ、常に変更が加えられるため、サポートは保証されません。そのため、データのバックアップを行わずにPreview版を使用することは避けてください。特定の機能が必要であり、そのリスクを十分に理解している場合にのみ、Preview版の使用を検討してください。</s>"
 
 #: ../../014_release_schedule.md:31
 msgid "Compatibility"
@@ -110,7 +122,11 @@ msgid ""
 "of FCS."
 msgstr ""
 "FCSセッションは、特に注意事項が記載されていない限り、前方互換性があります。<br>しかし、特にメジャーバージョン間（例：24.07 と "
-"24.10）では、後方互換性が必ずしも保証されるわけではありません。<br>以前のFCSバージョンで作成されたセッションは新しいバージョンのFCSで開くことができますが、一度新しいバージョンで開いたセッションは、古いバージョンでは再び開けなくなる可能性があります。<br>そのため、新しいバージョンに移行する前に、必ずファイルのバックアップを取るようにしてください。<br>同一メジャーバージョン内（例：24.07.01～24.07.10）では、できる限り後方互換性を維持するよう努めていますが、必ずしも保証されるものではありません。また、複数のユーザーで同じFCSセッションを利用する場合は、チーム全体で同じマイナーバージョンのFCSを使用することを推奨します。"
+"24.10）では、後方互換性が必ずしも保証されるわけではありません。<br>以前のFCSバージョンで作成されたセッションは新しいバージョンのFCSで開くことができますが、"
+"一度新しいバージョンで開いたセッションは、古いバージョンでは再び開けなくなる可能性があります。<br>"
+"そのため、新しいバージョンに移行する前に、必ずファイルのバックアップを取るようにしてください。<br>"
+"同一メジャーバージョン内（例：24.07.01～24.07.10）では、できる限り後方互換性を維持するよう努めていますが、必ずしも保証されるものではありません。"
+"また、複数のユーザーで同じFCSセッションを利用する場合は、チーム全体で同じマイナーバージョンのFCSを使用することを推奨します。"
 
 #: ../../014_release_schedule.md:38
 msgid "Steps to upgrade"
