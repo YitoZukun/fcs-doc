@@ -31,7 +31,6 @@ msgstr ""
 "更新<br>FCSのリリースサイクルは、2026年より従来の四半期ごとの更新から4月と10月の半年ごと（年2回）の更新となりました。"
 
 #: ../../014_release_schedule.md:5
-#, fuzzy
 msgid "1. Regular releases (major versions)"
 msgstr "1.定期リリース（メジャーバージョン）"
 
