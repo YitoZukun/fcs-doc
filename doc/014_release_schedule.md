@@ -22,10 +22,10 @@ Once released a major version will receive no update beside bug fixes that come 
 
 ### Upgrading FCS
 #### Standard vs LTS
-<s>The main difference between standard and LTS version lies in the length of their support period (how long the version would receive minor bug fix), 6 months vs 1 year.<br>
-LTS is recommended if the current LTS version meets all your requirements and you work on projects that last for longer than the standard supported period. <br> </s>
+The main difference between standard and LTS version lies in the length of their support period (how long the version would receive minor bug fix), 6 months vs 1 year.<br>
+LTS is recommended if the current LTS version meets all your requirements and you work on projects that last for longer than the standard supported period. <br> 
 
-Preview release has been discontinued.<br>
+Preview release has been discontinued.<br><br>
 <s>Preview versions provides a glimpse of upcoming features of new version of FCS and provide a chance to provide feedback to the developers. It is where we release non-critical bug fixes and are subject to constant changes and no support is guaranteed, you should never use the preview version without making backup of the data. You should only use the preview if and only if you some specific features and you understand the risk. </s>
 
 #### Compatibility
