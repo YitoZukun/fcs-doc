@@ -53,6 +53,9 @@ msgid ""
 " as UI refinement and bug fixes, will be released as needed (e.g., "
 "24.10.01). <br>"
 msgstr ""
+"一度リリースされたメジャーバージョンに対しては、次回の定期リリースまで機能追加を伴う大きな更新は行いません。<br>"
+"UI変更などの軽微な改善、不具合やバグの修正を目的とした「マイナーバージョン」のアップデート（例：24.10.01〜）は、必要に応じて随時実施されます。"
+
 
 #: ../../014_release_schedule.md:14
 msgid "Schedule"
@@ -77,7 +80,7 @@ msgstr "Standard版とLTS版の主な違いは、サポート期間の長さ（�
 
 #: ../../014_release_schedule.md:26
 msgid "Preview release has been discontinued."
-msgstr ""
+msgstr "Preview版のリリースは以後中止となりました。"
 
 #: ../../014_release_schedule.md:28
 msgid ""
@@ -86,6 +89,9 @@ msgid ""
 "feedback to the developers.<br> It is where we release non-critical bug "
 "fixes and are subject to constant changes and no support is guaranteed."
 msgstr ""
+"Preview版とは<br>"
+"新しいFCSバージョンの今後の機能を先取りできるとともに、開発者へフィードバックを行う機会を提供します。<br>"
+"この版では、軽微なバグの修正が含まれ、常に変更が加えられるため、サポートは保証されません。"
 
 #: ../../014_release_schedule.md:32
 msgid "Compatibility"
