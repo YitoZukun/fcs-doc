@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FCS Manual latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-01-30 10:58+0000\n"
+"POT-Creation-Date: 2026-01-30 11:10+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
@@ -62,11 +62,11 @@ msgstr ""
 msgid "Upgrading FCS"
 msgstr ""
 
-#: ../../014_release_schedule.md:21
+#: ../../014_release_schedule.md:22
 msgid "Standard vs LTS"
 msgstr ""
 
-#: ../../014_release_schedule.md:22
+#: ../../014_release_schedule.md:23
 msgid ""
 "The main difference between standard and LTS version lies in the length "
 "of their support period (how long the version would receive minor bug "
@@ -75,8 +75,16 @@ msgid ""
 "for longer than the standard supported period. <br>"
 msgstr ""
 
-#: ../../014_release_schedule.md:25
+#: ../../014_release_schedule.md:26
 msgid "Preview release has been discontinued."
+msgstr ""
+
+#: ../../014_release_schedule.md:28
+msgid ""
+"What is the preview version? <br>  Preview versions provides a glimpse of"
+" upcoming features of new version of FCS and provide a chance to provide "
+"feedback to the developers.<br> It is where we release non-critical bug "
+"fixes and are subject to constant changes and no support is guaranteed."
 msgstr ""
 
 #: ../../014_release_schedule.md:32
