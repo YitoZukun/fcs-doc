@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FCS Manual latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-01-28 11:00+0000\n"
+"POT-Creation-Date: 2026-01-30 10:58+0000\n"
 "PO-Revision-Date: 2025-02-24 10:33+0900\n"
 "Last-Translator: \n"
 "Language: jp\n"
@@ -51,57 +51,39 @@ msgid ""
 "Once a major version is released, feature set is frozen until the next "
 "regular release.<br> Minor version could include subtle improvements such"
 " as UI refinement and bug fixes, will be released as needed (e.g., "
-"24.10.01). <br> <s>FCS follows a quarterly release schedule, on January, "
-"April, July, and October.  Each major version released is supported "
-"either for 3 months (standard) or 1 year for Long-term Support(LTS).  "
-"Once released a major version will receive no update beside bug fixes "
-"that come as minor version updates (i.e., 24.07.02~)</s>"
-msgstr "一度リリースされたメジャーバージョンに対しては、次回の定期リリースまで機能追加を伴う大きな更新は行いません。<br>UI変更などの軽微な改善、不具合やバグの修正を目的とした「マイナーバージョン」のアップデート（例：24.10.01〜）は、必要に応じて随時実施されます。<br><br><s>FCSは、1月、4月、7月、10月の各四半期にリリースされます。各メジャーバージョンは、スタンダード版の場合は3ヶ月間、LTS版（長期サポート版）の場合は1年間サポートされます。また、一度リリースされたメジャーバージョンには、バグ修正のためのマイナーバージョンアップデート（例：24.07.02～）以外の更新は行われません。</s>"
+"24.10.01). <br>"
+msgstr ""
 
-#: ../../014_release_schedule.md:17
+#: ../../014_release_schedule.md:14
 msgid "Schedule"
 msgstr "スケジュール"
 
-#: ../../014_release_schedule.md:23
+#: ../../014_release_schedule.md:20
 msgid "Upgrading FCS"
 msgstr "FCSのアップグレード"
 
-#: ../../014_release_schedule.md:24
+#: ../../014_release_schedule.md:21
 msgid "Standard vs LTS"
 msgstr "スタンダード版 vs LTS版"
 
-#: ../../014_release_schedule.md:25
+#: ../../014_release_schedule.md:22
 msgid ""
 "The main difference between standard and LTS version lies in the length "
 "of their support period (how long the version would receive minor bug "
 "fix), 6 months vs 1 year.<br> LTS is recommended if the current LTS "
 "version meets all your requirements and you work on projects that last "
 "for longer than the standard supported period. <br>"
-msgstr ""
-"Standard版とLTS版の主な違いは、サポート期間の長さ（バグ修正などのマイナーアップデートの対応期間）です。Standard版は6か月、LTS版は1年です。<br>"
-"現在のLTS版は主要な機能が充足しており安定した運用が可能なため、FCSの基本的な機能を使用したい場合や、Standard版のサポートよりも長い期間プロジェクトで使用する場合は、"
-"LTS版をお勧めします。"
+msgstr "Standard版とLTS版の主な違いは、サポート期間の長さ（バグ修正などのマイナーアップデートの対応期間）です。Standard版は6か月、LTS版は1年です。<br>現在のLTS版は主要な機能が充足しており安定した運用が可能なため、FCSの基本的な機能を使用したい場合や、Standard版のサポートよりも長い期間プロジェクトで使用する場合は、LTS版をお勧めします。"
 
-#: ../../014_release_schedule.md:28
-msgid ""
-"Preview release has been discontinued.<br><br> <s>Preview versions "
-"provides a glimpse of upcoming features of new version of FCS and provide"
-" a chance to provide feedback to the developers. It is where we release "
-"non-critical bug fixes and are subject to constant changes and no support"
-" is guaranteed, you should never use the preview version without making "
-"backup of the data. You should only use the preview if and only if you "
-"some specific features and you understand the risk. </s>"
+#: ../../014_release_schedule.md:25
+msgid "Preview release has been discontinued."
 msgstr ""
-"Preview版のリリースは以降中止となりました。<br>"
-"<s>Preview版は、新しいFCSバージョンの今後の機能を先取りできるとともに、開発者へフィードバックを行う機会を提供します。"
-"そのため、データのバックアップを行わずにPreview版を使用することは避けてください。"
-"特定の機能が必要であり、そのリスクを十分に理解している場合にのみ、Preview版の使用を検討してください。</s>"
 
-#: ../../014_release_schedule.md:31
+#: ../../014_release_schedule.md:32
 msgid "Compatibility"
 msgstr "互換性"
 
-#: ../../014_release_schedule.md:32
+#: ../../014_release_schedule.md:33
 msgid ""
 "FCS sessions are forward-compatible unless explicitly noted otherwise; "
 "however, backward compatibility is not always guaranteed, especially "
@@ -117,15 +99,15 @@ msgstr ""
 "FCSセッションは、特に注意事項が記載されていない限り、前方互換性があります。<br>しかし、特にメジャーバージョン間（例：24.07 と "
 "24.10）では、後方互換性が必ずしも保証されるわけではありません。<br>以前のFCSバージョンで作成されたセッションは新しいバージョンのFCSで開くことができますが、一度新しいバージョンで開いたセッションは、古いバージョンでは再び開けなくなる可能性があります。<br>そのため、新しいバージョンに移行する前に、必ずファイルのバックアップを取るようにしてください。<br>同一メジャーバージョン内（例：24.07.01～24.07.10）では、できる限り後方互換性を維持するよう努めていますが、必ずしも保証されるものではありません。また、複数のユーザーで同じFCSセッションを利用する場合は、チーム全体で同じマイナーバージョンのFCSを使用することを推奨します。"
 
-#: ../../014_release_schedule.md:37
+#: ../../014_release_schedule.md:38
 msgid "Steps to upgrade"
 msgstr "アップグレード手順"
 
-#: ../../014_release_schedule.md:38
+#: ../../014_release_schedule.md:39
 msgid "[Export your data](#export-header-target)."
 msgstr "セッションデータを[エクスポート](#export-header-target)してください。"
 
-#: ../../014_release_schedule.md:39
+#: ../../014_release_schedule.md:40
 msgid "Open the exported data using the newly downloaded version of FCS."
 msgstr "新しくダウンロードしたFCSのバージョンを使用し、エクスポートされたデータを開いてください。"
 
@@ -241,4 +223,40 @@ msgstr "新しくダウンロードしたFCSのバージョンを使用し、エ
 #~ "than the standard supported period. "
 #~ "<br>Standard版とLTS版の主な違いはサポート期間にあり、Standard版は3ヶ月間、LTS版は1年間サポートされます。<br>サポート期間中、致命的なバグが修正され次第、迅速にアップデートとしてリリースされます。<br>もし、現在サポート中のLTS版がすべての要件を満たしており、かつプロジェクトの期間がStandard版のサポート期間を超える場合は、LTS版の利用が推奨されます。"
 #~ msgstr ""
+
+#~ msgid ""
+#~ "Once a major version is released, "
+#~ "feature set is frozen until the "
+#~ "next regular release.<br> Minor version "
+#~ "could include subtle improvements such "
+#~ "as UI refinement and bug fixes, "
+#~ "will be released as needed (e.g., "
+#~ "24.10.01). <br> <s>FCS follows a "
+#~ "quarterly release schedule, on January, "
+#~ "April, July, and October.  Each major"
+#~ " version released is supported either "
+#~ "for 3 months (standard) or 1 year"
+#~ " for Long-term Support(LTS).  Once "
+#~ "released a major version will receive"
+#~ " no update beside bug fixes that "
+#~ "come as minor version updates (i.e., "
+#~ "24.07.02~)</s>"
+#~ msgstr "一度リリースされたメジャーバージョンに対しては、次回の定期リリースまで機能追加を伴う大きな更新は行いません。<br>UI変更などの軽微な改善、不具合やバグの修正を目的とした「マイナーバージョン」のアップデート（例：24.10.01〜）は、必要に応じて随時実施されます。<br><br><s>FCSは、1月、4月、7月、10月の各四半期にリリースされます。各メジャーバージョンは、スタンダード版の場合は3ヶ月間、LTS版（長期サポート版）の場合は1年間サポートされます。また、一度リリースされたメジャーバージョンには、バグ修正のためのマイナーバージョンアップデート（例：24.07.02～）以外の更新は行われません。</s>"
+
+#~ msgid ""
+#~ "Preview release has been discontinued.<br><br>"
+#~ " <s>Preview versions provides a glimpse "
+#~ "of upcoming features of new version "
+#~ "of FCS and provide a chance to "
+#~ "provide feedback to the developers. It"
+#~ " is where we release non-critical "
+#~ "bug fixes and are subject to "
+#~ "constant changes and no support is "
+#~ "guaranteed, you should never use the "
+#~ "preview version without making backup of"
+#~ " the data. You should only use "
+#~ "the preview if and only if you "
+#~ "some specific features and you "
+#~ "understand the risk. </s>"
+#~ msgstr "Preview版のリリースは以降中止となりました。<br><s>Preview版は、新しいFCSバージョンの今後の機能を先取りできるとともに、開発者へフィードバックを行う機会を提供します。そのため、データのバックアップを行わずにPreview版を使用することは避けてください。特定の機能が必要であり、そのリスクを十分に理解している場合にのみ、Preview版の使用を検討してください。</s>"
 
