@@ -10,9 +10,6 @@ By changing the release frequency, we aim to further stabilize the quality of ea
 Once a major version is released, feature set is frozen until the next regular release.<br>
 Minor version could include subtle improvements such as UI refinement and bug fixes, will be released as needed (e.g., 24.10.01).
 <br>
-<s>FCS follows a quarterly release schedule, on January, April, July, and October. 
-Each major version released is supported either for 3 months (standard) or 1 year for Long-term Support(LTS). 
-Once released a major version will receive no update beside bug fixes that come as minor version updates (i.e., 24.07.02~)</s>
 
 ### Schedule
 ```{figure} images/fcs_release_timeline_v02.jpg
@@ -26,7 +23,11 @@ The main difference between standard and LTS version lies in the length of their
 LTS is recommended if the current LTS version meets all your requirements and you work on projects that last for longer than the standard supported period. <br> 
 
 Preview release has been discontinued.<br><br>
-<s>Preview versions provides a glimpse of upcoming features of new version of FCS and provide a chance to provide feedback to the developers. It is where we release non-critical bug fixes and are subject to constant changes and no support is guaranteed, you should never use the preview version without making backup of the data. You should only use the preview if and only if you some specific features and you understand the risk. </s>
+<details>
+<summary>Preview Version</summary>
+　Preview versions provides a glimpse of upcoming features of new version of FCS and provide a chance to provide feedback to the developers.
+  It is where we release non-critical bug fixes and are subject to constant changes and no support is guaranteed.
+</details>
 
 #### Compatibility
 FCS sessions are forward-compatible unless explicitly noted otherwise; however, backward compatibility is not always guaranteed, especially across major versions (e.g., 26.04, 26.10).<br>
