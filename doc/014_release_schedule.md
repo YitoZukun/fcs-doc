@@ -22,12 +22,10 @@ Minor version could include subtle improvements such as UI refinement and bug fi
 The main difference between standard and LTS version lies in the length of their support period (how long the version would receive minor bug fix), 6 months vs 1 year.<br>
 LTS is recommended if the current LTS version meets all your requirements and you work on projects that last for longer than the standard supported period. <br> 
 
-Preview release has been discontinued.
-<details>
-<summary>Preview Version</summary>
+Preview release has been discontinued.<br>
+-What is the preview version?
 　Preview versions provides a glimpse of upcoming features of new version of FCS and provide a chance to provide feedback to the developers.
   It is where we release non-critical bug fixes and are subject to constant changes and no support is guaranteed.
-</details>
 
 #### Compatibility
 FCS sessions are forward-compatible unless explicitly noted otherwise; however, backward compatibility is not always guaranteed, especially across major versions (e.g., 26.04, 26.10).<br>
