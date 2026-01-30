@@ -25,8 +25,8 @@ LTS is recommended if the current LTS version meets all your requirements and yo
 
 Preview release has been discontinued.
 
-- What is the preview version?<br>
-　Preview versions provides a glimpse of upcoming features of new version of FCS and provide a chance to provide feedback to the developers.
+- What is the preview version?
+  Preview versions provides a glimpse of upcoming features of new version of FCS and provide a chance to provide feedback to the developers.<br>
   It is where we release non-critical bug fixes and are subject to constant changes and no support is guaranteed.
 
 #### Compatibility
