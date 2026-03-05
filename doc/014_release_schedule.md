@@ -18,22 +18,14 @@ Minor version could include subtle improvements such as UI refinement and bug fi
 ```
 
 ### Upgrading FCS
-
-#### Standard vs LTS
-The main difference between standard and LTS version lies in the length of their support period (how long the version would receive minor bug fix), 6 months vs 1 year.<br>
-LTS is recommended if the current LTS version meets all your requirements and you work on projects that last for longer than the standard supported period. <br> 
-
-Preview release has been discontinued.
-
-- What is the preview version? <br> 
-  Preview versions provides a glimpse of upcoming features of new version of FCS and provide a chance to provide feedback to the developers.<br>
-  It is where we release non-critical bug fixes and are subject to constant changes and no support is guaranteed.
+We have discontinued dividing our products into different versions (LTS/Standard/Preview) based on support status, etc.
+To simplify operations, we have now standardized our format, providing all customers with the same support period and the latest updates.
 
 #### Compatibility
-FCS sessions are forward-compatible unless explicitly noted otherwise; however, backward compatibility is not always guaranteed, especially across major versions (e.g., 26.04, 26.10).<br>
+FCS sessions are forward-compatible unless explicitly noted otherwise; however, backward compatibility is not always guaranteed, especially across major versions (e.g., 25.07, 25.10).<br>
 This means you can open FCS sessions created in a previous version of FCS using newer versions. However, once a session is opened in a newer version, it may no longer be possible to open it in an older version of FCS.<br>
 Therefore, it is critical to back up your files before upgrading to a newer version of FCS.<br>
-We strive to maintain backward compatibility within a major version (e.g., across 24.07.01–24.07.10); however, this is not guaranteed.<br>
+We strive to maintain backward compatibility within a major version (e.g., across 25.10.01–25.10.04); however, this is not guaranteed.<br>
 
 #### Steps to upgrade
 1. [Export your data](#export-header-target). 
