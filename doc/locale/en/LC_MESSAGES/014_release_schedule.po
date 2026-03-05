@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FCS Manual latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-03-05 08:27+0000\n"
+"POT-Creation-Date: 2026-03-05 08:35+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
@@ -55,14 +55,10 @@ msgid ""
 msgstr ""
 
 #: ../../014_release_schedule.md:14
-msgid "Schedule"
-msgstr ""
-
-#: ../../014_release_schedule.md:20
 msgid "Upgrading FCS"
 msgstr ""
 
-#: ../../014_release_schedule.md:21
+#: ../../014_release_schedule.md:15
 msgid ""
 "We have discontinued dividing our products into different versions "
 "(LTS/Standard/Preview) based on support status, etc. To simplify "
@@ -70,11 +66,11 @@ msgid ""
 "with the same support period and the latest updates."
 msgstr ""
 
-#: ../../014_release_schedule.md:24
+#: ../../014_release_schedule.md:18
 msgid "Compatibility"
 msgstr ""
 
-#: ../../014_release_schedule.md:25
+#: ../../014_release_schedule.md:19
 msgid ""
 "FCS sessions are forward-compatible unless explicitly noted otherwise; "
 "however, backward compatibility is not always guaranteed, especially "
@@ -88,15 +84,15 @@ msgid ""
 "guaranteed.<br>"
 msgstr ""
 
-#: ../../014_release_schedule.md:30
+#: ../../014_release_schedule.md:24
 msgid "Steps to upgrade"
 msgstr ""
 
-#: ../../014_release_schedule.md:31
+#: ../../014_release_schedule.md:25
 msgid "[Export your data](#export-header-target)."
 msgstr ""
 
-#: ../../014_release_schedule.md:32
+#: ../../014_release_schedule.md:26
 msgid "Open the exported data using the newly downloaded version of FCS."
 msgstr ""
 
@@ -462,5 +458,8 @@ msgstr ""
 #~ "backward compatibility within a major "
 #~ "version (e.g., across 24.07.01–24.07.10); "
 #~ "however, this is not guaranteed.<br>"
+#~ msgstr ""
+
+#~ msgid "Schedule"
 #~ msgstr ""
 

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FCS Manual latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-03-05 08:27+0000\n"
+"POT-Creation-Date: 2026-03-05 08:35+0000\n"
 "PO-Revision-Date: 2025-02-24 10:33+0900\n"
 "Last-Translator: \n"
 "Language: jp\n"
@@ -55,14 +55,10 @@ msgid ""
 msgstr "一度リリースされたメジャーバージョンに対しては、次回の定期リリースまで機能追加を伴う大きな更新は行いません。<br>UI変更などの軽微な改善、不具合やバグの修正を目的とした「マイナーバージョン」のアップデート（例：24.10.01〜）は、必要に応じて随時実施されます。"
 
 #: ../../014_release_schedule.md:14
-msgid "Schedule"
-msgstr "スケジュール"
-
-#: ../../014_release_schedule.md:20
 msgid "Upgrading FCS"
 msgstr "FCSのアップグレード"
 
-#: ../../014_release_schedule.md:21
+#: ../../014_release_schedule.md:15
 msgid ""
 "We have discontinued dividing our products into different versions "
 "(LTS/Standard/Preview) based on support status, etc. To simplify "
@@ -70,11 +66,11 @@ msgid ""
 "with the same support period and the latest updates."
 msgstr ""
 
-#: ../../014_release_schedule.md:24
+#: ../../014_release_schedule.md:18
 msgid "Compatibility"
 msgstr "互換性"
 
-#: ../../014_release_schedule.md:25
+#: ../../014_release_schedule.md:19
 #, fuzzy
 msgid ""
 "FCS sessions are forward-compatible unless explicitly noted otherwise; "
@@ -91,15 +87,15 @@ msgstr ""
 "FCSセッションは、特に注意事項が記載されていない限り、前方互換性があります。<br>しかし、特にメジャーバージョン間（例：24.07 と "
 "24.10）では、後方互換性が必ずしも保証されるわけではありません。<br>以前のFCSバージョンで作成されたセッションは新しいバージョンのFCSで開くことができますが、一度新しいバージョンで開いたセッションは、古いバージョンでは再び開けなくなる可能性があります。<br>そのため、新しいバージョンに移行する前に、必ずファイルのバックアップを取るようにしてください。<br>同一メジャーバージョン内（例：24.07.01～24.07.10）では、できる限り後方互換性を維持するよう努めていますが、必ずしも保証されるものではありません。また、複数のユーザーで同じFCSセッションを利用する場合は、チーム全体で同じマイナーバージョンのFCSを使用することを推奨します。"
 
-#: ../../014_release_schedule.md:30
+#: ../../014_release_schedule.md:24
 msgid "Steps to upgrade"
 msgstr "アップグレード手順"
 
-#: ../../014_release_schedule.md:31
+#: ../../014_release_schedule.md:25
 msgid "[Export your data](#export-header-target)."
 msgstr "セッションデータを[エクスポート](#export-header-target)してください。"
 
-#: ../../014_release_schedule.md:32
+#: ../../014_release_schedule.md:26
 msgid "Open the exported data using the newly downloaded version of FCS."
 msgstr "新しくダウンロードしたFCSのバージョンを使用し、エクスポートされたデータを開いてください。"
 
@@ -282,4 +278,7 @@ msgstr "新しくダウンロードしたFCSのバージョンを使用し、エ
 #~ "to constant changes and no support "
 #~ "is guaranteed."
 #~ msgstr "Preview版とは<br>新しいFCSバージョンの今後の機能を先取りできるとともに、開発者へフィードバックを行う機会を提供します。<br>この版では、軽微なバグの修正が含まれ、常に変更が加えられるため、サポートは保証されません。"
+
+#~ msgid "Schedule"
+#~ msgstr "スケジュール"
 
