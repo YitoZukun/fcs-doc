@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FCS Manual latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-01-30 11:10+0000\n"
+"POT-Creation-Date: 2026-03-05 08:27+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
@@ -17,7 +17,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.17.0\n"
+"Generated-By: Babel 2.18.0\n"
 
 #: ../../014_release_schedule.md:1
 msgid "Release Schedule"
@@ -62,58 +62,41 @@ msgstr ""
 msgid "Upgrading FCS"
 msgstr ""
 
-#: ../../014_release_schedule.md:22
-msgid "Standard vs LTS"
-msgstr ""
-
-#: ../../014_release_schedule.md:23
+#: ../../014_release_schedule.md:21
 msgid ""
-"The main difference between standard and LTS version lies in the length "
-"of their support period (how long the version would receive minor bug "
-"fix), 6 months vs 1 year.<br> LTS is recommended if the current LTS "
-"version meets all your requirements and you work on projects that last "
-"for longer than the standard supported period. <br>"
+"We have discontinued dividing our products into different versions "
+"(LTS/Standard/Preview) based on support status, etc. To simplify "
+"operations, we have now standardized our format, providing all customers "
+"with the same support period and the latest updates."
 msgstr ""
 
-#: ../../014_release_schedule.md:26
-msgid "Preview release has been discontinued."
-msgstr ""
-
-#: ../../014_release_schedule.md:28
-msgid ""
-"What is the preview version? <br>  Preview versions provides a glimpse of"
-" upcoming features of new version of FCS and provide a chance to provide "
-"feedback to the developers.<br> It is where we release non-critical bug "
-"fixes and are subject to constant changes and no support is guaranteed."
-msgstr ""
-
-#: ../../014_release_schedule.md:32
+#: ../../014_release_schedule.md:24
 msgid "Compatibility"
 msgstr ""
 
-#: ../../014_release_schedule.md:33
+#: ../../014_release_schedule.md:25
 msgid ""
 "FCS sessions are forward-compatible unless explicitly noted otherwise; "
 "however, backward compatibility is not always guaranteed, especially "
-"across major versions (e.g., 26.04, 26.10).<br> This means you can open "
+"across major versions (e.g., 25.07, 25.10).<br> This means you can open "
 "FCS sessions created in a previous version of FCS using newer versions. "
 "However, once a session is opened in a newer version, it may no longer be"
 " possible to open it in an older version of FCS.<br> Therefore, it is "
 "critical to back up your files before upgrading to a newer version of "
 "FCS.<br> We strive to maintain backward compatibility within a major "
-"version (e.g., across 24.07.01–24.07.10); however, this is not "
+"version (e.g., across 25.10.01–25.10.04); however, this is not "
 "guaranteed.<br>"
 msgstr ""
 
-#: ../../014_release_schedule.md:38
+#: ../../014_release_schedule.md:30
 msgid "Steps to upgrade"
 msgstr ""
 
-#: ../../014_release_schedule.md:39
+#: ../../014_release_schedule.md:31
 msgid "[Export your data](#export-header-target)."
 msgstr ""
 
-#: ../../014_release_schedule.md:40
+#: ../../014_release_schedule.md:32
 msgid "Open the exported data using the newly downloaded version of FCS."
 msgstr ""
 
@@ -427,5 +410,57 @@ msgstr ""
 #~ "the preview if and only if you "
 #~ "some specific features and you "
 #~ "understand the risk. </s>"
+#~ msgstr ""
+
+#~ msgid "Standard vs LTS"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The main difference between standard and"
+#~ " LTS version lies in the length "
+#~ "of their support period (how long "
+#~ "the version would receive minor bug "
+#~ "fix), 6 months vs 1 year.<br> LTS"
+#~ " is recommended if the current LTS"
+#~ " version meets all your requirements "
+#~ "and you work on projects that last"
+#~ " for longer than the standard "
+#~ "supported period. <br>"
+#~ msgstr ""
+
+#~ msgid "Preview release has been discontinued."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "What is the preview version? <br>  "
+#~ "Preview versions provides a glimpse of"
+#~ " upcoming features of new version of"
+#~ " FCS and provide a chance to "
+#~ "provide feedback to the developers.<br> "
+#~ "It is where we release non-"
+#~ "critical bug fixes and are subject "
+#~ "to constant changes and no support "
+#~ "is guaranteed."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "FCS sessions are forward-compatible "
+#~ "unless explicitly noted otherwise; however,"
+#~ " backward compatibility is not always "
+#~ "guaranteed, especially across major versions"
+#~ " (e.g., 26.04, 26.10).<br> This means "
+#~ "you can open FCS sessions created "
+#~ "in a previous version of FCS using"
+#~ " newer versions. However, once a "
+#~ "session is opened in a newer "
+#~ "version, it may no longer be "
+#~ "possible to open it in an older"
+#~ " version of FCS.<br> Therefore, it is"
+#~ " critical to back up your files "
+#~ "before upgrading to a newer version "
+#~ "of FCS.<br> We strive to maintain "
+#~ "backward compatibility within a major "
+#~ "version (e.g., across 24.07.01–24.07.10); "
+#~ "however, this is not guaranteed.<br>"
 #~ msgstr ""
 

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FCS Manual latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-01-30 11:10+0000\n"
+"POT-Creation-Date: 2026-03-05 08:27+0000\n"
 "PO-Revision-Date: 2025-02-24 10:33+0900\n"
 "Last-Translator: \n"
 "Language: jp\n"
@@ -15,7 +15,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.17.0\n"
+"Generated-By: Babel 2.18.0\n"
 
 #: ../../014_release_schedule.md:1
 msgid "Release Schedule"
@@ -52,10 +52,7 @@ msgid ""
 "regular release.<br> Minor version could include subtle improvements such"
 " as UI refinement and bug fixes, will be released as needed (e.g., "
 "24.10.01). <br>"
-msgstr ""
-"一度リリースされたメジャーバージョンに対しては、次回の定期リリースまで機能追加を伴う大きな更新は行いません。<br>"
-"UI変更などの軽微な改善、不具合やバグの修正を目的とした「マイナーバージョン」のアップデート（例：24.10.01〜）は、必要に応じて随時実施されます。"
-
+msgstr "一度リリースされたメジャーバージョンに対しては、次回の定期リリースまで機能追加を伴う大きな更新は行いません。<br>UI変更などの軽微な改善、不具合やバグの修正を目的とした「マイナーバージョン」のアップデート（例：24.10.01〜）は、必要に応じて随時実施されます。"
 
 #: ../../014_release_schedule.md:14
 msgid "Schedule"
@@ -65,63 +62,44 @@ msgstr "スケジュール"
 msgid "Upgrading FCS"
 msgstr "FCSのアップグレード"
 
-#: ../../014_release_schedule.md:22
-msgid "Standard vs LTS"
-msgstr "スタンダード版 vs LTS版"
-
-#: ../../014_release_schedule.md:23
+#: ../../014_release_schedule.md:21
 msgid ""
-"The main difference between standard and LTS version lies in the length "
-"of their support period (how long the version would receive minor bug "
-"fix), 6 months vs 1 year.<br> LTS is recommended if the current LTS "
-"version meets all your requirements and you work on projects that last "
-"for longer than the standard supported period. <br>"
-msgstr "Standard版とLTS版の主な違いは、サポート期間の長さ（バグ修正などのマイナーアップデートの対応期間）です。Standard版は6か月、LTS版は1年です。<br>現在のLTS版は主要な機能が充足しており安定した運用が可能なため、FCSの基本的な機能を使用したい場合や、Standard版のサポートよりも長い期間プロジェクトで使用する場合は、LTS版をお勧めします。"
-
-#: ../../014_release_schedule.md:26
-msgid "Preview release has been discontinued."
-msgstr "Preview版のリリースは以後中止となりました。"
-
-#: ../../014_release_schedule.md:28
-msgid ""
-"What is the preview version? <br>  Preview versions provides a glimpse of"
-" upcoming features of new version of FCS and provide a chance to provide "
-"feedback to the developers.<br> It is where we release non-critical bug "
-"fixes and are subject to constant changes and no support is guaranteed."
+"We have discontinued dividing our products into different versions "
+"(LTS/Standard/Preview) based on support status, etc. To simplify "
+"operations, we have now standardized our format, providing all customers "
+"with the same support period and the latest updates."
 msgstr ""
-"Preview版とは<br>"
-"新しいFCSバージョンの今後の機能を先取りできるとともに、開発者へフィードバックを行う機会を提供します。<br>"
-"この版では、軽微なバグの修正が含まれ、常に変更が加えられるため、サポートは保証されません。"
 
-#: ../../014_release_schedule.md:32
+#: ../../014_release_schedule.md:24
 msgid "Compatibility"
 msgstr "互換性"
 
-#: ../../014_release_schedule.md:33
+#: ../../014_release_schedule.md:25
+#, fuzzy
 msgid ""
 "FCS sessions are forward-compatible unless explicitly noted otherwise; "
 "however, backward compatibility is not always guaranteed, especially "
-"across major versions (e.g., 26.04, 26.10).<br> This means you can open "
+"across major versions (e.g., 25.07, 25.10).<br> This means you can open "
 "FCS sessions created in a previous version of FCS using newer versions. "
 "However, once a session is opened in a newer version, it may no longer be"
 " possible to open it in an older version of FCS.<br> Therefore, it is "
 "critical to back up your files before upgrading to a newer version of "
 "FCS.<br> We strive to maintain backward compatibility within a major "
-"version (e.g., across 24.07.01–24.07.10); however, this is not "
+"version (e.g., across 25.10.01–25.10.04); however, this is not "
 "guaranteed.<br>"
 msgstr ""
 "FCSセッションは、特に注意事項が記載されていない限り、前方互換性があります。<br>しかし、特にメジャーバージョン間（例：24.07 と "
 "24.10）では、後方互換性が必ずしも保証されるわけではありません。<br>以前のFCSバージョンで作成されたセッションは新しいバージョンのFCSで開くことができますが、一度新しいバージョンで開いたセッションは、古いバージョンでは再び開けなくなる可能性があります。<br>そのため、新しいバージョンに移行する前に、必ずファイルのバックアップを取るようにしてください。<br>同一メジャーバージョン内（例：24.07.01～24.07.10）では、できる限り後方互換性を維持するよう努めていますが、必ずしも保証されるものではありません。また、複数のユーザーで同じFCSセッションを利用する場合は、チーム全体で同じマイナーバージョンのFCSを使用することを推奨します。"
 
-#: ../../014_release_schedule.md:38
+#: ../../014_release_schedule.md:30
 msgid "Steps to upgrade"
 msgstr "アップグレード手順"
 
-#: ../../014_release_schedule.md:39
+#: ../../014_release_schedule.md:31
 msgid "[Export your data](#export-header-target)."
 msgstr "セッションデータを[エクスポート](#export-header-target)してください。"
 
-#: ../../014_release_schedule.md:40
+#: ../../014_release_schedule.md:32
 msgid "Open the exported data using the newly downloaded version of FCS."
 msgstr "新しくダウンロードしたFCSのバージョンを使用し、エクスポートされたデータを開いてください。"
 
@@ -273,4 +251,35 @@ msgstr "新しくダウンロードしたFCSのバージョンを使用し、エ
 #~ "some specific features and you "
 #~ "understand the risk. </s>"
 #~ msgstr "Preview版のリリースは以降中止となりました。<br><s>Preview版は、新しいFCSバージョンの今後の機能を先取りできるとともに、開発者へフィードバックを行う機会を提供します。そのため、データのバックアップを行わずにPreview版を使用することは避けてください。特定の機能が必要であり、そのリスクを十分に理解している場合にのみ、Preview版の使用を検討してください。</s>"
+
+#~ msgid "Standard vs LTS"
+#~ msgstr "スタンダード版 vs LTS版"
+
+#~ msgid ""
+#~ "The main difference between standard and"
+#~ " LTS version lies in the length "
+#~ "of their support period (how long "
+#~ "the version would receive minor bug "
+#~ "fix), 6 months vs 1 year.<br> LTS"
+#~ " is recommended if the current LTS"
+#~ " version meets all your requirements "
+#~ "and you work on projects that last"
+#~ " for longer than the standard "
+#~ "supported period. <br>"
+#~ msgstr "Standard版とLTS版の主な違いは、サポート期間の長さ（バグ修正などのマイナーアップデートの対応期間）です。Standard版は6か月、LTS版は1年です。<br>現在のLTS版は主要な機能が充足しており安定した運用が可能なため、FCSの基本的な機能を使用したい場合や、Standard版のサポートよりも長い期間プロジェクトで使用する場合は、LTS版をお勧めします。"
+
+#~ msgid "Preview release has been discontinued."
+#~ msgstr "Preview版のリリースは以後中止となりました。"
+
+#~ msgid ""
+#~ "What is the preview version? <br>  "
+#~ "Preview versions provides a glimpse of"
+#~ " upcoming features of new version of"
+#~ " FCS and provide a chance to "
+#~ "provide feedback to the developers.<br> "
+#~ "It is where we release non-"
+#~ "critical bug fixes and are subject "
+#~ "to constant changes and no support "
+#~ "is guaranteed."
+#~ msgstr "Preview版とは<br>新しいFCSバージョンの今後の機能を先取りできるとともに、開発者へフィードバックを行う機会を提供します。<br>この版では、軽微なバグの修正が含まれ、常に変更が加えられるため、サポートは保証されません。"
 

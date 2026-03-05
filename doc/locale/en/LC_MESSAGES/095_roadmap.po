@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: FCS Manual latest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-17 07:54+0000\n"
+"POT-Creation-Date: 2026-03-05 08:27+0000\n"
 "PO-Revision-Date: 2024-09-26 22:02+0900\n"
 "Last-Translator: \n"
 "Language: en\n"
@@ -77,24 +77,24 @@ msgstr ""
 msgid ""
 "リアルタイム動画生成 リアルタイムでのアニメーション解析・出力プログラムの作成 <br> "
 "本機能につきましては、FCSへの標準搭載を見送ることといたしました。 <br> "
-"今後は、個別のプロジェクト要件に合わせた最適化を重視し、個別対応を検討しております。個別対応のご相談につきましてはお問い合わせください。 <br>"
+"今後は、個別のプロジェクト要件に合わせた最適化を重視し、個別対応を検討しております。個別対応のご相談につきましてはお問い合わせください。"
 msgstr ""
 
-#: ../../095_roadmap.md:50
+#: ../../095_roadmap.md:52
 #, fuzzy
 msgid ""
 "サンプルエンジンコードの作成(Unity, Unreal Engine, Motion Builder)  <br> "
 "リアルタイム機能向けの上記エンジンを対象としたサンプルコードの提供計画は、リアルタイム機能と合わせて中止となりました。"
 msgstr "Development of sample engine code (Unity, Unreal Engine, Motion Builder)."
 
-#: ../../095_roadmap.md:55
+#: ../../095_roadmap.md:57
 #, fuzzy
 msgid "自動リターゲット機能の搭載  <br> 任意のリグに対し自動的に大まかなリターゲットを行う機能の実装についても中止となりました。"
 msgstr ""
 "Equipped with automatic retargeting functions      An algorithm adds the "
 "capability to automatically perform rough retargeting on any rig"
 
-#: ../../095_roadmap.md:60
+#: ../../095_roadmap.md:62
 #, fuzzy
 msgid ""
 "Unreal Engineによるリターゲットへの対応  <br> 現在Mayaにて提供している各種機能をUnreal "
@@ -103,7 +103,7 @@ msgstr ""
 "Retargeting support with Unreal Engine     Extending the Maya features in"
 " FCS to Unreal Engine"
 
-#: ../../095_roadmap.md:66
+#: ../../095_roadmap.md:68
 msgid ""
 "FCSは、お客様の実際の制作現場により深く貢献できるツールを目指し、皆様からの追加機能のリクエストを随時お待ちしております。  <br>   "
 "また、標準的な機能提供に留まらず、貴社固有の制作パイプラインやワークフローに最適化したビルドのカスタマイズ対応も可能[^1]です。  <br>"
@@ -112,7 +112,7 @@ msgid ""
 "/zukun-lab/fcs/)よりお気軽にご相談ください。"
 msgstr ""
 
-#: ../../095_roadmap.md:70
+#: ../../095_roadmap.md:72
 #, fuzzy
 msgid "一定数以上のライセンス購入などの条件・追加料金が発生する場合がございます。"
 msgstr ""
@@ -205,5 +205,12 @@ msgstr ""
 #~ "リアルタイム動画生成 リアルタイムでのアニメーション解析・出力プログラムの作成 <br> "
 #~ "本機能につきましては、FCSへの標準搭載を見送ることといたしました。 <br> "
 #~ "今後は、個別のプロジェクト要件に合わせた最適化を重視し、個別対応を検討しております。個別対応のご相談につきましてはお問い合わせください。"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "リアルタイム動画生成 リアルタイムでのアニメーション解析・出力プログラムの作成 <br> "
+#~ "本機能につきましては、FCSへの標準搭載を見送ることといたしました。 <br> "
+#~ "今後は、個別のプロジェクト要件に合わせた最適化を重視し、個別対応を検討しております。個別対応のご相談につきましてはお問い合わせください。"
+#~ " <br>"
 #~ msgstr ""
 
