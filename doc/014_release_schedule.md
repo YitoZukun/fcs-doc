@@ -11,12 +11,6 @@ Once a major version is released, feature set is frozen until the next regular r
 Minor version could include subtle improvements such as UI refinement and bug fixes, will be released as needed (e.g., 24.10.01).
 <br>
 
-### Schedule
-```{figure} images/fcs_release_timeline_v02.jpg
-:width: 80%
-:align: center
-```
-
 ### Upgrading FCS
 We have discontinued dividing our products into different versions (LTS/Standard/Preview) based on support status, etc.
 To simplify operations, we have now standardized our format, providing all customers with the same support period and the latest updates.
