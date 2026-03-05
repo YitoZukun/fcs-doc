@@ -65,13 +65,14 @@ msgid ""
 "operations, we have now standardized our format, providing all customers "
 "with the same support period and the latest updates."
 msgstr ""
+"サポート状況などによる製品のバージョン分け（Standard/LTS/Preview）を廃止いたしました。"
+"現在は運用をシンプルにするために形態を一本化し最新のアップデートを提供しています。"
 
 #: ../../014_release_schedule.md:18
 msgid "Compatibility"
 msgstr "互換性"
 
 #: ../../014_release_schedule.md:19
-#, fuzzy
 msgid ""
 "FCS sessions are forward-compatible unless explicitly noted otherwise; "
 "however, backward compatibility is not always guaranteed, especially "
@@ -84,8 +85,8 @@ msgid ""
 "version (e.g., across 25.10.01–25.10.04); however, this is not "
 "guaranteed.<br>"
 msgstr ""
-"FCSセッションは、特に注意事項が記載されていない限り、前方互換性があります。<br>しかし、特にメジャーバージョン間（例：24.07 と "
-"24.10）では、後方互換性が必ずしも保証されるわけではありません。<br>以前のFCSバージョンで作成されたセッションは新しいバージョンのFCSで開くことができますが、一度新しいバージョンで開いたセッションは、古いバージョンでは再び開けなくなる可能性があります。<br>そのため、新しいバージョンに移行する前に、必ずファイルのバックアップを取るようにしてください。<br>同一メジャーバージョン内（例：24.07.01～24.07.10）では、できる限り後方互換性を維持するよう努めていますが、必ずしも保証されるものではありません。また、複数のユーザーで同じFCSセッションを利用する場合は、チーム全体で同じマイナーバージョンのFCSを使用することを推奨します。"
+"FCSセッションは、特に注意事項が記載されていない限り、前方互換性があります。<br>しかし、特にメジャーバージョン間（例：25.07 と "
+"25.10）では、後方互換性が必ずしも保証されるわけではありません。<br>以前のFCSバージョンで作成されたセッションは新しいバージョンのFCSで開くことができますが、一度新しいバージョンで開いたセッションは、古いバージョンでは再び開けなくなる可能性があります。<br>そのため、新しいバージョンに移行する前に、必ずファイルのバックアップを取るようにしてください。<br>同一メジャーバージョン内（例：25.10.01~25.10.04）では、できる限り後方互換性を維持するよう努めていますが、必ずしも保証されるものではありません。また、複数のユーザーで同じFCSセッションを利用する場合は、チーム全体で同じマイナーバージョンのFCSを使用することを推奨します。"
 
 #: ../../014_release_schedule.md:24
 msgid "Steps to upgrade"
